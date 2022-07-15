@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium web', sans-serif;
+}
+
+:root {
+    --mainColor: #fff;
+    --mainColorLight: #30A5B2;
+    --secondaryColor:#318C9B;
+    --textColor: #000000;
+    --collapsColor: #30A5B2;
+}
+
+header {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem; 
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--collapsColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive-nav{
+        transform: none;
+    }
+
+    nav .nav-cls-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        color: white;
+    }
+}

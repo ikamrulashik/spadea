@@ -1,0 +1,1 @@
+Spadea Digital is a full-service digital and social media agency based in Dhaka, Bangladesh.
