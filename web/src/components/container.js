@@ -9,9 +9,11 @@ function Container () {
             <h1>INNOVATION STARTS WITH IDEAS</h1>
             <br/>
             <div className="bg-btn">
-                <button className ="btns">
-                    LEARN MORE
-                </button>
+                <a href = "/contact">
+                    <button className ="btns">
+                    GET STARTED
+                    </button>
+                </a>
             </div>
 
         </div>

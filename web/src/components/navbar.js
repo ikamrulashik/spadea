@@ -11,8 +11,8 @@ function Navbar () {
 
     return (
         <>
-            <header>
-                <a href = "/"><img src={logo} width="85" height="75" /></a>
+            <header className='navbar'>
+                <a href = "/"><img src={logo} width="85" height="75" alt="logo"/></a>
                 <nav ref={navRef}>
                     <a href="/">Home</a>
                     <a href="/about">About Us</a>
