@@ -1,8 +1,14 @@
 import React from 'react'
-import "../styles/main.css"
+import '../styles/main.css';
+import Header from '../assets/images/cover.webp';
 
-export default function Contact () {
-    return <div className='contact'>
-        <h1 className="contact-header">Contact Us</h1>
-    </div> ;
+function Contact () {
+    return (
+        <div className='contact'>
+            <img src = {Header} className="header-img" alt="header"/>
+            <h1 className='contact-header'>Contact Us</h1>
+        </div>
+    )
 }
+
+export default Contact;

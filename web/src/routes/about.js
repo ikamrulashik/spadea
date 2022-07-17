@@ -1,8 +1,14 @@
 import React from 'react'
-import "../styles/main.css"
+import '../styles/main.css';
+import Header from '../assets/images/cover.webp';
 
-export default function About () {
-    return <div className='about'>
-    <h1 className='about-header'>About Us</h1>
-    </div> ;
+function About () {
+    return (
+        <div className='about'>
+            <img src = {Header} className="header-img" alt="header"/>
+            <h1 className='about-header'>About Us</h1>
+        </div>
+    )
 }
+
+export default About;
