@@ -66,7 +66,7 @@ function Footer() {
       
       <div className='footer-end'>
         <div className='footer-end-rights'>
-          <p>©2022 Spadea. All rights reserved.</p>
+          <p><b>©2022 Spadea Digital. All rights reserved.</b></p>
         </div>
       </div>
     </div>

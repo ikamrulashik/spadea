@@ -6,7 +6,6 @@ import About from './routes/about';
 import Services from './routes/services';
 import Work from './routes/work';
 import Contact from './routes/contact';
-import Blog from './routes/blog';
 import Footer from './components/footer'
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer/>
       </Router>

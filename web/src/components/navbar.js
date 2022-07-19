@@ -19,7 +19,6 @@ function Navbar () {
                     <a href="/services">Services</a>
                     <a href="/work">Our Work</a>
                     <a href="/contact">Contact Us</a>
-                    <a href="/blog">Blog</a>
 
                     <button class='nav-btn nav-cls-btn' onClick={showNav}>
                         <FaTimes/>
